@@ -341,42 +341,42 @@
                 <div class="badge">1</div>
                 <div class="label">Report 1</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/202vation%20Report_04-2024.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/20241220_GER001_a+S_Innovation%20Report_04-2024.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">2</div>
                 <div class="label">Report 2</div>
               </div>
-              https://ulirdz.github.io/egis-test.ia/250630_EgisPT-InnovationReport_S1.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/250630_EgisPT-InnovationReport_S1.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">3</div>
                 <div class="label">Report 3</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/251107_EgisPT-InnovationReport_Sport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/251107_EgisPT-InnovationReport_S2.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">4</div>
                 <div class="label">Report 4</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.02025%20Innovation%20report%20Q1.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/A88%20-%20France%202025%20Innovation%20report%20Q1.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">5</div>
                 <div class="label">Report 5</div>
               </div>
-              https://ulirdz.github.io/egis-test.ia/AESA%20-%20Poland%20Innovation%20Report%202025.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/AESA%20-%20Poland%20Innovation%20Report%202025.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">6</div>
                 <div class="label">Report 6</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/BB_C025.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/BB_COW_Innovatio_report_2025.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
@@ -384,41 +384,41 @@
                 <div class="label">Report 7</div>
               </div>
               <!-- Note: spaces in URL may require encoding if issues occur -->
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/MEX Egis Infraestructura -Innovation Report v1r le rapport PDF</a>
+             <a href="https://ulirdz.github.io/egis-test.ia/MEX Egis Infraestructura -Innovation Report v1 - 2025H2.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">8</div>
                 <div class="label">Report 8</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report - M25 (December 2025).pdf" target="_blank" rel/li>
+              <a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report - M25 (December 2025).pdf" target="_blank">Consulter le rapport PDF</a>
             <li>
               <div class="meta">
                 <div class="badge">9</div>
                 <div class="label">Report 9</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report _Australia.pdf"DF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report _Australia.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">10</div>
                 <div class="label">Report 10</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egre_Innovation report_EIMK - Kasakhstan.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report_EIMK - Kasakhstan.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">11</div>
                 <div class="label">Report 11</div>
               </div>
-              <a class="btnz.github.io/egis-test.ia/VIA4 - Croatia INNOVATION REPORT 10.2025 - ATTACHMENT 1.pdfConsulter le rapport PDF</a>
+              <a href="https://ulirdz.github.io/egis-test.ia/VIA4 - Croatia INNOVATION REPORT 10.2025 - ATTACHMENT 1.pdf" target="_blank">Consulter le rapport PDF</a>
             </li>
             <li>
               <div class="meta">
                 <div class="badge">12</div>
                 <div class="label">Report 12</div>
               </div>
-              <a class="btn" href="https://ulirdz.github.io/egis-test.ia/Waagner-Biro Technical Competency Centre, O&amp;M Signature_Innovation report dated 24 Nov 2025.pdf" target="_blank"   </li>
+              <a href="https://ulirdz.github.io/egis-test.ia/Waagner-Biro Technical Competency Centre, O&M Signature_Innovation report dated 24 Nov 2025.pdf" target="_blank">Consulter le rapport PDF</a>  </li>
           </ul>
         </div>
 
