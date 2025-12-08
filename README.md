@@ -24,3 +24,30 @@ Confidentiality: All materials are confidential and may contain proprietary or s
 Limited Use: These documents may only be consulted within the scope of the Copilot agent development project. Any other use, including commercial exploitation, is forbidden without prior written consent from Egis Operations.
 No Liability: Egis Operations assumes no responsibility for any misuse, misinterpretation, or unauthorized use of the documents. Users are solely responsible for ensuring compliance with applicable laws and internal policies.
 Termination of Access: Egis Operations reserves the right to revoke access to these documents at any time, without notice, if misuse or breach of these terms is suspected.
+Report **1**
+<a href="https://ulirdz.github.io/egis-test.ia/20241220_GER001_a+S_Innovation%20Report_04-2024.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **2**
+<a href="https://ulirdz.github.io/egis-test.ia/250630_EgisPT-InnovationReport_S1.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **3**
+<a href="https://ulirdz.github.io/egis-test.ia/251107_EgisPT-InnovationReport_S2.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **4**
+<a href="https://ulirdz.github.io/egis-test.ia/A88%20-%20France%202025%20Innovation%20report%20Q1.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **5**
+<a href="https://ulirdz.github.io/egis-test.ia/AESA%20-%20Poland%20Innovation%20Report%202025.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **6**
+<a href="https://ulirdz.github.io/egis-test.ia/BB_COW_Innovatio_report_2025.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **7**
+<a href="https://ulirdz.github.io/egis-test.ia/MEX Egis Infraestructura -Innovation Report v1 - 2025H2.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **8**
+<a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report - M25 (December 2025).pdf" target="_blank">Consulter le rapport PDF</a>
+Report **9**
+<a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report _Australia.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **10**
+<a href="https://ulirdz.github.io/egis-test.ia/OM Signature_Innovation report_EIMK - Kasakhstan.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **11**
+<a href="https://ulirdz.github.io/egis-test.ia/VIA4 - Croatia INNOVATION REPORT 10.2025 - ATTACHMENT 1.pdf" target="_blank">Consulter le rapport PDF</a>
+Report **12**
+<a href="https://ulirdz.github.io/egis-test.ia/Waagner-Biro Technical Competency Centre, O&M Signature_Innovation report dated 24 Nov 2025.pdf" target="_blank">Consulter le rapport PDF</a>
+
+
+
