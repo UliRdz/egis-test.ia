@@ -87,7 +87,8 @@ class EgisChatAgent {
         - Keep tone professional and concise.
         - If summarizing multiple reports, aggregate recurring themes.
         - Do NOT output raw text; always follow the above structure.
-        Available documents: The system has access to documents in the /documents folder of the repository.
+        Available documents: The system has access to documents in the /documents folder of the repository, You cannot consult external websites, only information present in your specified sources.
+        
         Example:
         # Innovation Report – Grand-Paris Water & Energy
         
@@ -124,7 +125,7 @@ class EgisChatAgent {
             { name: 'KAZ003 ,NATIONAL EXPRESSWAY 2 (NE-2)/NCR-UTTAR PRADESH (EIMK),  Kazakhstan', path: '/documents/OM Signature_Innovation report_EIMK - Kasakhstan' },
             { name: 'CRO002, VIA4, CROATIA', path: '/documents/VIA4 - Croatia INNOVATION REPORT 10.2025 - ATTACHMENT 1.pdf' },
             { name: 'UAE005, Waagner-Biro, United Arab Emirates,', path: '/documents/Waagner-Biro Technical Competency Centre, O&M Signature_Innovation report dated 24 Nov 2025.pdf' }
-            // Add your 12 PDF documents here
+            
         ];
         
         console.log(`Loaded ${this.documents.length} documents`);
@@ -388,3 +389,4 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
