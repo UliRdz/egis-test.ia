@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egis Operations - AI Innovation Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Egis Operations</h1>
+                <p class="subtitle">AI Innovation Document Analyst</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Info Panel -->
+            <div class="info-panel" id="infoPanel">
+                <div class="info-content">
+                    <h2>Welcome to Egis AI Analyst</h2>
+                    <p>This AI agent analyzes innovation reports from concession sites. Ask questions about:</p>
+                    <ul>
+                        <li>Specific site innovation initiatives</li>
+                        <li>Technological solutions deployed</li>
+                        <li>Operational improvements and KPIs</li>
+                        <li>Sustainability measures</li>
+                        <li>Comprehensive summaries across all sites</li>
+                    </ul>
+                    <div class="example-questions">
+                        <h3>Example Questions:</h3>
+                        <button class="example-btn" onclick="askExample('Give me a summary of all innovation reports')">
+                            📊 Summary of all reports
+                        </button>
+                        <button class="example-btn" onclick="askExample('What are the main sustainability initiatives?')">
+                            🌱 Sustainability initiatives
+                        </button>
+                        <button class="example-btn" onclick="askExample('Show me innovation report for Site A')">
+                            📄 Specific site report
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Container -->
+            <div class="chat-container">
+                <!-- Messages Area -->
+                <div class="messages" id="messages">
+                    <div class="message bot">
+                        <div class="message-content">
+                            <strong>Egis AI Analyst</strong>
+                            <p>Hello! I'm your AI assistant specialized in analyzing innovation reports from Egis concession sites. How can I help you today?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area">
+                    <div class="input-container">
+                        <textarea 
+                            id="userInput" 
+                            placeholder="Ask about innovation reports, specific sites, or request summaries..."
+                            rows="1"
+                        ></textarea>
+                        <button id="sendBtn" onclick="sendMessage()">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="api-status" id="apiStatus">
+                        <span class="status-indicator" id="statusIndicator">⚪</span>
+                        <span id="statusText">API Key not configured</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Settings Modal -->
+        <div class="modal" id="settingsModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>API Configuration</h2>
+                    <button class="close-btn" onclick="closeSettings()">×</button>
+                </div>
+                <div class="modal-body">
+                    <label for="apiKeyInput">Groq API Key:</label>
+                    <input 
+                        type="password" 
+                        id="apiKeyInput" 
+                        placeholder="Enter your Groq API key"
+                    >
+                    <p class="help-text">
+                        Get your API key from <a href="https://console.groq.com" target="_blank">Groq Console</a>
+                    </p>
+                    <button class="save-btn" onclick="saveApiKey()">Save Configuration</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Button -->
+        <button class="settings-btn" onclick="openSettings()" title="Configure API Key">
+            ⚙️
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
