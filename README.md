@@ -146,7 +146,7 @@
         <div class="brand-badge">🤖</div>
         <div>
           Egis Operations – AI Innovation Document Analyst
-          <div class="muted" style="font-size:13px;">Professional AI-powered chat interface for analyzing innovation reports (Groq API)</div>
+          <div class="muted" style="font-size:13px;">Professional AI-powered chat interface for analyzing innovation reports </div>
         </div>
       </div>
       <nav class="nav-links">
