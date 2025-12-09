@@ -6,8 +6,8 @@
 }
 
 :root {
-    --primary: ##25eb46;
-    --primary-dark: #1eaf25;
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
     --secondary: #10b981;
     --background: #f8fafc;
     --surface: #ffffff;
@@ -493,5 +493,6 @@ body {
     }
 
 }
+
 
 
