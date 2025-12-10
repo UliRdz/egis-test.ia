@@ -57,10 +57,10 @@ class EgisChatAgent {
         - Qualitative outcomes (efficiency, user experience)
         
         ## 5. Best Practices by Theme/Domain
-        - Sustainability : [Generated Result]
-        - Health & Safety : [Generated Result]
-        - Intelligent Systems : [Generated Result]
-        - Operational Excellence: [Generated Result]
+        - Sustainability
+        - Health & Safety 
+        - Intelligent Systems
+        - Operational Excellence
       
         ## 6. Sustainability & Scalability
         - Environmental/social benefits
@@ -81,8 +81,7 @@ class EgisChatAgent {
         - Future outlook
         
         **Rules:**
-        - Always use Markdown headings and tables.
-        - Keep tone professional and concise.
+        - Keep tone professional and concise, always review the structure and format before generating in the chat interface.
         - If summarizing multiple reports, aggregate recurring themes.
         - Do NOT output raw text; always follow the above structure.
         - Do NOT include "|" in your responses, abd always start with a Capital Letter the fisrt word of each sentence.
@@ -396,6 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
