@@ -57,12 +57,14 @@ class EgisChatAgent {
         - Qualitative outcomes (efficiency, user experience)
         
         ## 5. Best Practices by Theme/Domain
-        | Theme | Key Practices |
-        |-------|---------------|
-        | Sustainability | ... |
-        | Health & Safety | ... |
-        | Intelligent Systems | ... |
-        | Operational Excellence | ... |
+        | Theme + Key Practices |
+        
+        Sustainability : [Generated Result]
+        Health & Safety : [Generated Result]
+        Intelligent Systems : [Generated Result]
+        Operational Excellence: [Generated Result]
+        <img src="documents/egis.png" alt="Egis Logo" style="height:20px; vertical-align:middle; margin-right:5px;">
+        Do not use regular bullet characters. Always use the image as the bullet marker.
         
         ## 6. Sustainability & Scalability
         - Environmental/social benefits
@@ -389,4 +391,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
