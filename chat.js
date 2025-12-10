@@ -63,9 +63,7 @@ class EgisChatAgent {
         Health & Safety : [Generated Result]
         Intelligent Systems : [Generated Result]
         Operational Excellence: [Generated Result]
-        <img src="documents/egis.png" alt="Egis Logo" style="height:20px; vertical-align:middle; margin-right:5px;">
-        Do not use regular bullet characters. Always use the image as the bullet marker.
-        
+      
         ## 6. Sustainability & Scalability
         - Environmental/social benefits
         - Replication potential
@@ -330,7 +328,7 @@ class EgisChatAgent {
     /**
      * Format message content (preserve line breaks, etc.)
      */
-    formatMessage(content) {
+     formatMessage(content) {
         // Escape HTML
         content = this.escapeHtml(content);
         
@@ -343,9 +341,14 @@ class EgisChatAgent {
         // Format italic text (*text*)
         content = content.replace(/\*(.+?)\*/g, '<em>$1</em>');
         
+        // Add Egis logo to bullet points (lines starting with -)
+        content = content.replace(/^-\s/gm, '<img src="documents/egis.png" alt="Egis Logo" style="height:20px; vertical-align:middle; margin-right:5px;">');
+        
+        // Add Egis logo to numbered lists (lines starting with number.)
+        content = content.replace(/^(\d+)\.\s/gm, '<img src="documents/egis.png" alt="Egis Logo" style="height:20px; vertical-align:middle; margin-right:5px;">$1. ');
+        
         return content;
     }
-
     /**
      * Escape HTML
      */
@@ -391,5 +394,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
