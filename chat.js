@@ -57,21 +57,19 @@ class EgisChatAgent {
         - Qualitative outcomes (efficiency, user experience)
         
         ## 5. Best Practices by Theme/Domain
-        | Theme + Key Practices |
-        
-        Sustainability : [Generated Result]
-        Health & Safety : [Generated Result]
-        Intelligent Systems : [Generated Result]
-        Operational Excellence: [Generated Result]
+        - Sustainability : [Generated Result]
+        - Health & Safety : [Generated Result]
+        - Intelligent Systems : [Generated Result]
+        - Operational Excellence: [Generated Result]
       
         ## 6. Sustainability & Scalability
         - Environmental/social benefits
         - Replication potential
-        
+
         ## 7. Challenges & Lessons Learned
         - Obstacles encountered
         - Solutions applied
-        
+    
         ## 8. Document Improvements
         - Areas to refine according to Egis processes
         
@@ -87,6 +85,7 @@ class EgisChatAgent {
         - Keep tone professional and concise.
         - If summarizing multiple reports, aggregate recurring themes.
         - Do NOT output raw text; always follow the above structure.
+        - Do NOT include "|" in your responses, abd always start with a Capital Letter the fisrt word of each sentence.
         Available documents: The system has access to documents in the /documents folder of the repository, You cannot consult external websites, only information present in your specified sources.
         
         Example:
@@ -115,7 +114,7 @@ class EgisChatAgent {
         this.documents = [
             { name: 'AUS024, Nepa, Australia', path: '/documents/OM Signature_Innovation report _Australia.pdf' },
             { name: 'GBR006, M25, UK', path: '/documents/OM Signature_Innovation report - M25 (December 2025).pdf' },
-            { name: 'GBR006, M25, UK ', path: '/documents/MEX Egis Infraestructura -Innovation Report v1 - 2025H2.pdf' },
+            { name: 'MEX008, Golfo Centro , Mexico', path: '/documents/MEX Egis Infraestructura -Innovation Report v1 - 2025H2.pdf' },
             { name: 'POR001, A24 EROP, June PORTUGAL', path: '/documents/250630_EgisPT-InnovationReport_S1.pdf' },
             { name: 'POR001, A24 EROP, Nov PORTUGAL', path: '/documents/251107_EgisPT-InnovationReport_S2.pdf' },
             { name: 'GER001, Autobahnplus A8, Germany', path: '/documents/20241220_GER001_a+S_Innovation Report_04-2024.pdf' },
@@ -334,6 +333,9 @@ class EgisChatAgent {
         
         // Convert line breaks to <br>
         content = content.replace(/\n/g, '<br>');
+
+        // Add Egis logo to bullet points (lines starting with *)
+        content = content.replace(/^\*\s/gm, '<img src="documents/egis.png" alt="Egis Logo" style="height:20px; vertical-align:middle; margin-right:5px;">');
         
         // Format bold text (**text**)
         content = content.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
@@ -394,6 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
