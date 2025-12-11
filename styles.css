@@ -6,30 +6,30 @@
 }
 
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1e40af;
-    --secondary: #10b981;
-    --background: #f8fafc;
-    --surface: #ffffff;
-    --text: #1e293b;
-    --text-light: #64748b;
-    --border: #e2e8f0;
-    --danger: #ef4444;
-    --success: #10b981;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --primary: #ABC022;        /* Key Lime Pie Green - brand accent */
+    --primary-dark: #09212C;   /* Firefly Dark Blue - strong text/background */
+    --secondary: #9CA3AF;      /* Gray Chateau - neutral secondary tone */
+    --background: #FFFFFF;     /* White - page background */
+    --surface: #F5F5F5;        /* Light gray surface for cards/sections */
+    --text: #09212C;           /* Firefly Dark Blue - main text */
+    --text-light: #9CA3AF;     /* Gray Chateau - muted text */
+    --border: #E0E0E0;         /* Neutral border color */
+    --danger: #FF4C4C;         /* Red for alerts/errors */
+    --success: #4CAF50;        /* Green for success states */
+    --shadow: 0 1px 3px rgba(9, 33, 44, 0.1);   /* Subtle shadow using brand dark */
+    --shadow-lg: 0 10px 25px rgba(9, 33, 44, 0.15);
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(135deg, #7adf8b 0%, #7dc95f 100%);
+    background: linear-gradient(135deg, #ABC022 0%, #09212C 100%); /* Brand green → dark blue gradient */
     min-height: 100vh;
     color: var(--text);
     line-height: 1.6;
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
     min-height: 100vh;
@@ -61,7 +61,7 @@ body {
 /* Main Content */
 .main-content {
     display: grid;
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 450px 1fr;
     gap: 20px;
     flex: 1;
 }
@@ -493,6 +493,7 @@ body {
     }
 
 }
+
 
 
 
