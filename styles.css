@@ -16,8 +16,8 @@
     --border: #E0E0E0;         /* Neutral border color */
     --danger: #FF4C4C;         /* Red for alerts/errors */
     --success: #4CAF50;        /* Green for success states */
-    --shadow: 0 1px 3px rgba(9, 33, 44, 0.1);   /* Subtle shadow using brand dark */
-    --shadow-lg: 0 10px 25px rgba(9, 33, 44, 0.15);
+    --shadow: 0 -1px 3px rgba(9, 33, 44, 0.05);   /* smaller, lighter, inverted */
+    --shadow-lg: 0 -10px 25px rgba(9, 33, 44, 0.08); /* larger, softer, inverted */
 }
 
 body {
@@ -143,7 +143,7 @@ body {
     box-shadow: var(--shadow-lg);
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     overflow: hidden;
 }
 
@@ -493,6 +493,7 @@ body {
     }
 
 }
+
 
 
 
