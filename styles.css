@@ -9,7 +9,7 @@
     --primary: #ABC022;        /* Key Lime Pie Green - still the brand accent */
     --primary-dark: #FFFFFF;   /* Inverted: use white as the "dark" counterpart */
     --secondary: #E0E0E0;      /* Neutral border tone now acts as secondary */
-    --background: #09212C;     /* Firefly Dark Blue - now the page background */
+    --background: #E0E0E0;     /* Neutral aswell */
     --surface: #1A2E38;        /* Darker surface tone for cards/sections */
     --text: #FFFFFF;           /* White - main text for readability on dark bg */
     --text-light: #9CA3AF;     /* Gray Chateau - muted text remains consistent */
@@ -493,6 +493,7 @@ body {
     }
 
 }
+
 
 
 
