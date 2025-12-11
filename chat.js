@@ -34,8 +34,8 @@ class EgisChatAgent {
      * Get system prompt with instructions
      */
     getSystemPrompt() {
-        return `You are an AI analyst specialized in Egis Operations innovation reports.
-        Your task: produce a **structured, professional report** in Markdown following this exact format:
+        return `You are an AI analyst and assistant specialized in Egis Operations innovation reports, you need to answer basic questions about the contained files in the /documents directory. How ever, if asked you can produce individual reports, 
+        a **structured, professional report** in Markdown following this exact format:
         
         # Innovation Report – [Site Name]
         
@@ -69,14 +69,8 @@ class EgisChatAgent {
         ## 7. Challenges & Lessons Learned
         - Obstacles encountered
         - Solutions applied
-    
-        ## 8. Document Improvements
-        - Areas to refine according to Egis processes
         
-        ## 9. Recommendations
-        - Suggestions for Egis support and next steps
-        
-        ## 10. Conclusion
+        ## 8. Conclusion
         - Overall assessment
         - Future outlook
         
@@ -111,18 +105,18 @@ class EgisChatAgent {
         // Placeholder for document list
         // You should replace this with actual document fetching logic
         this.documents = [
-            { name: 'AUS024, Nepa, Australia', path: '/documents/OM Signature_Innovation report _Australia.pdf' },
-            { name: 'GBR006, M25, UK', path: '/documents/OM Signature_Innovation report - M25 (December 2025).pdf' },
-            { name: 'MEX008, Golfo Centro , Mexico', path: '/documents/MEX Egis Infraestructura -Innovation Report v1 - 2025H2.pdf' },
-            { name: 'POR001, A24 EROP, June PORTUGAL', path: '/documents/250630_EgisPT-InnovationReport_S1.pdf' },
-            { name: 'POR001, A24 EROP, Nov PORTUGAL', path: '/documents/251107_EgisPT-InnovationReport_S2.pdf' },
-            { name: 'GER001, Autobahnplus A8, Germany', path: '/documents/20241220_GER001_a+S_Innovation Report_04-2024.pdf' },
-            { name: 'FRA013, Routalis A88, France', path: '/documents/A88 - France 2025 Innovation report Q1.pdf' },
-            { name: 'POL001, AESA, POLAND', path: '/documents/AESA - Poland Innovation Report 2025.pdf' },
-            { name: 'AUT001, A5/S1O/S1W BONAVENTURA SERVICES, AUSTRIA', path: '/documents/BB_COW_Innovatio_report_2025.pdf' },
-            { name: 'KAZ003 ,NATIONAL EXPRESSWAY 2 (NE-2)/NCR-UTTAR PRADESH (EIMK),  Kazakhstan', path: '/documents/OM Signature_Innovation report_EIMK - Kasakhstan' },
-            { name: 'CRO002, VIA4, CROATIA', path: '/documents/VIA4 - Croatia INNOVATION REPORT 10.2025 - ATTACHMENT 1.pdf' },
-            { name: 'UAE005, Waagner-Biro, United Arab Emirates,', path: '/documents/Waagner-Biro Technical Competency Centre, O&M Signature_Innovation report dated 24 Nov 2025.pdf' }
+            { name: 'AUS024, Nepa, Australia', path: '/documents/AUS024, Nepa, Australia.pdf' },
+            { name: 'GBR006, M25, UK', path: '/documents/GBR006, M25, UK.pdf' },
+            { name: 'MEX008, Golfo Centro , Mexico', path: '/documents/MEX008, Golfo Centro , Mexico.pdf' },
+            { name: 'POR001, A24 EROP, June PORTUGAL', path: '/documents/POR001 A24 EROP June PORTUGAL.pdf' },
+            { name: 'POR001, A24 EROP, Nov PORTUGAL', path: '/documents/POR001 A24 EROP Nov PORTUGAL.pdf' },
+            { name: 'GER001, Autobahnplus A8, Germany', path: '/documents/GER001 Autobahnplus A8 Germany.pdf' },
+            { name: 'FRA013, Routalis A88, France', path: '/documents/FRA013 Routalis A88 France.pdf' },
+            { name: 'POL001, AESA, POLAND', path: '/documents/POL001 AESA POLAND.pdf' },
+            { name: 'AUT001, A5/S1O/S1W BONAVENTURA SERVICES, AUSTRIA', path: '/documents/AUT001, A5, S1O, S1W AUSTRIA BONAVENTURA SERVICES.pdf' },
+            { name: 'KAZ003 ,NATIONAL EXPRESSWAY 2 (NE-2)/NCR-UTTAR PRADESH (EIMK),  Kazakhstan', path: '/documents/KAZ003 NATIONAL EXPRESSWAY 2 (NE-2), Kazakhstan' },
+            { name: 'CRO002, VIA4, CROATIA', path: '/documents/CRO002 VIA4 CROATIA.pdf' },
+            { name: 'UAE005, Waagner-Biro, United Arab Emirates,', path: '/documents/UAE005, United Arab Emirates, Waagner-Biro.pdf' }
             
         ];
         
@@ -395,6 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
