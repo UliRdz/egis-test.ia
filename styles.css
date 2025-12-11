@@ -6,16 +6,16 @@
 }
 
 :root {
-    --primary: #ABC022;        /* Key Lime Pie Green - brand accent */
-    --primary-dark: #09212C;   /* Firefly Dark Blue - strong text/background */
-    --secondary: #9CA3AF;      /* Gray Chateau - neutral secondary tone */
-    --background: #FFFFFF;     /* White - page background */
-    --surface: #F5F5F5;        /* Light gray surface for cards/sections */
-    --text: #09212C;           /* Firefly Dark Blue - main text */
-    --text-light: #9CA3AF;     /* Gray Chateau - muted text */
-    --border: #E0E0E0;         /* Neutral border color */
-    --danger: #FF4C4C;         /* Red for alerts/errors */
-    --success: #4CAF50;        /* Green for success states */
+    --primary: #ABC022;        /* Key Lime Pie Green - still the brand accent */
+    --primary-dark: #FFFFFF;   /* Inverted: use white as the "dark" counterpart */
+    --secondary: #E0E0E0;      /* Neutral border tone now acts as secondary */
+    --background: #09212C;     /* Firefly Dark Blue - now the page background */
+    --surface: #1A2E38;        /* Darker surface tone for cards/sections */
+    --text: #FFFFFF;           /* White - main text for readability on dark bg */
+    --text-light: #9CA3AF;     /* Gray Chateau - muted text remains consistent */
+    --border: #9CA3AF;         /* Gray border for separation on dark surfaces */
+    --danger: #FF4C4C;         /* Red for alerts/errors (unchanged) */
+    --success: #4CAF50;        /* Green for success states (unchanged) */
     --shadow: 0 -1px 3px rgba(9, 33, 44, 0.05);   /* smaller, lighter, inverted */
     --shadow-lg: 0 -10px 25px rgba(9, 33, 44, 0.08); /* larger, softer, inverted */
 }
@@ -61,7 +61,7 @@ body {
 /* Main Content */
 .main-content {
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: 550px 1fr;
     gap: 20px;
     flex: 1;
 }
@@ -493,6 +493,7 @@ body {
     }
 
 }
+
 
 
 
