@@ -280,15 +280,6 @@ class EgisChatAgent {
                 role: 'user',
                 content: userMessage
             });
-            
-            // Trim off everything but the last 5 exchanges
-            const historyToSend = this.conversationHistory.slice(-5);
-            
-            // Prepare messages for API using the trimmed history
-            const messages = [
-                { role: 'system', content: this.systemPrompt },
-                ...historyToSend
-            ];
 
             // Prepare messages for API + Prepare document context
             let documentContext = '\n\n## Available Documents:\n';
@@ -469,6 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
