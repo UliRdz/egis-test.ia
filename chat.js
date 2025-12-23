@@ -281,8 +281,16 @@ class EgisChatAgent {
                 content: userMessage
             });
             
-            // Prepare messages for API
-            // Prepare document context
+            // Trim off everything but the last 5 exchanges
+            const historyToSend = this.conversationHistory.slice(-5);
+            
+            // Prepare messages for API using the trimmed history
+            const messages = [
+                { role: 'system', content: this.systemPrompt },
+                ...historyToSend
+            ];
+
+            // Prepare messages for API + Prepare document context
             let documentContext = '\n\n## Available Documents:\n';
             this.documents.forEach(doc => {
                 // Limit each document to first 3000 characters to avoid token limits
@@ -339,7 +347,7 @@ class EgisChatAgent {
                 model: 'openai/gpt-oss-120b',
                 messages: messages,
                 temperature: 0.7,
-                max_tokens: 8192,
+                max_tokens: 7999,
                 top_p: 1,
                 stream: false
             })
@@ -461,6 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
