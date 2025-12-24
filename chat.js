@@ -307,8 +307,8 @@ class EgisChatAgent {
             body: JSON.stringify({
                 model: 'openai/gpt-oss-120b',
                 messages: messages,
-                temperature: 0.7,
-                max_tokens: 7900,
+                temperature: 1.0,
+                max_tokens: 6000,
                 top_p: 1,
                 stream: false
             })
@@ -430,6 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatAgent = new EgisChatAgent();
 
 });
+
 
 
 
